@@ -1,0 +1,60 @@
+{
+  "name": "ScholarDAO Paper",
+  "symbol": "SCHPAPER",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "internalType": "string", 
+          "name": "symbol",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "subject",
+          "type": "string" 
+        },
+        {
+          "internalType": "string",
+          "name": "subSubjects",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "authors",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "citations",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "paperHash",
+          "type": "string"
+        }
+      ],
+      "name": "submitPaper",
+      "outputs": [],
+      "stateMutability": "nonpayable", 
+      "type": "function"
+    }
+  ]
+}
